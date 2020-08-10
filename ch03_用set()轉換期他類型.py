@@ -1,0 +1,7 @@
+a = set("letter")
+print(a)
+b = set(['Dasher', 'Dancer', 'Prancer', 'Mason-Dixon'])
+print(b)
+c = set(('Ummagumma','Echoes','Atom Heart Mother'))
+print(c)
+d = set({'apple':'red','orange':'orange','cherry':'red'})
