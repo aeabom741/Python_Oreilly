@@ -12,3 +12,5 @@ print(data[16:20])
 
 struct.pack('>L',154)
 struct.pack('>L',141)
+print(struct.unpack('>2L',data[16:24]))
+print(struct.unpack(">16x2L6x",data))
